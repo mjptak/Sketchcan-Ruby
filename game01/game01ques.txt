@@ -1,0 +1,15 @@
+m000,What is the approx velocity of sound in air(m/s)?,340
+m001,What is the approx velocity of light in vacumn?(miles/hr),186000
+m002,How many minutes for light to arrive from sun,8
+m003,How many seconds for light to arrive from moon,1.3
+m004,How many seconds for light to arrive from GPS,0.7
+m005,What is the mass of 1 liter of water (kg),1
+m006,What is the weight of 1 gallon of water (lbs),8.34
+m007,What is the weight of 1 liter of water(N),9.8
+m008,How many seconds for sound to travel a mile,5
+m009,1 inch is the same as how many centimeters,2.54
+m010,How many quarts are in a gallon,4
+m011,How many ounces are in a pound,16
+m012,What is the price of a cheese roll up at Taco Bell in cents,0.89
+m013,What is the approximate distance around the world (in millions of meters),40
+m014,What is the approx velocity of a point on the equator (in miles per hour),1055

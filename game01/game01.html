@@ -1,0 +1,60 @@
+<!-- sample.html - beginning HTML for the ruby2javascript piece -->
+
+<html>
+	<head>
+		<title>Sample Game01 HTML Page</title>
+	</head>
+	<body>
+
+<center>
+
+    <h1 id='heading'> Sample Game01 HTML Page </h1>
+    <p>
+    <button 
+    	style='font-size:18pt'
+    	onclick='button_clicked()'
+    > Click Me to Check Ruby/Javascript Intercourse! </button>
+
+</center>
+</body>
+
+
+
+<script type='text/javascript'>
+	function button_clicked() {
+		var mymess = new Array()
+		mymess[0]=1000
+		mymess[1]=2000
+		mymess[2]=3000
+		mymess[3]=4000
+		mymess[4]=5000
+		rubyCalled( 'first_ac', mymess[2] );
+	}
+
+	function rubyCalled( cb_name, msg ) {
+<!--It appears that the message below is necessary to establish communication-->
+<!--		alert(msg[0]) -->
+<!-- NOTE_YOU NEED TO CLOSE ALL COMMENTS -->
+		fake_url = 'skp:' + cb_name + '@' + msg
+		window.location.href = fake_url
+	}
+
+	function rubyReturned( msg ) {
+		alert( 'Ruby returned "' + msg + '"' );
+<!--msg is the note from Ruby which must be a string-->
+		mesarray=msg.split(',')
+		var temp = parseFloat(mesarray[3])
+		temp=10.5+temp
+		alert(temp)
+	}
+<!--  One last thing to do is to now resend some new info to Ruby for processing-->
+<!--  This would allow you to get some info from Ruby process it in a javascript file -->
+<!--  And then use it to control some object or simulation in Ruby -->
+	<!--	var messages  -->
+</script>
+	
+
+
+</html>
+
+<!-- end of sample.html -->
