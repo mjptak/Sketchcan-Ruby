@@ -1,1 +1,3 @@
 This is just an extra file to see how the commits work
+
+I am adding this text in late january 2013.
